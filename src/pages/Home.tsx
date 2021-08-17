@@ -6,6 +6,7 @@ import instagram from "../assets/instagram.svg"
 import youtube from "../assets/youtube.svg"
 import facebook from "../assets/facebook.svg"
 import twitter from "../assets/twitter.svg"
+import { Login } from "../components/Login/index"
 
 
 // import { Container } from './styles';
@@ -28,9 +29,9 @@ const Home: React.FC = () => {
           </aside>
           <main id="conteudo">
 
-            <div className="maincontent shadow-lg rounded-3xl">
-              teste
-            </div>
+
+            <Login />
+
 
           </main>
         </div>

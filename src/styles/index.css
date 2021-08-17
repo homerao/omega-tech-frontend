@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  box-sizing: border-box;
+}
 body {
   background-color: #F3F3F5;
 }
@@ -32,7 +35,6 @@ body {
   text-align: center;
 }
 
-
 .icons{
   display:flex;
   gap: 35px;
@@ -49,11 +51,6 @@ body {
   height: 100vh; 
 }
 
-.login {
-  background-color: #fff;
-   width: 450px;
-   height: 550px;
-}
 ::-webkit-scrollbar {
   width: 7px;
   background: #666666;
@@ -86,3 +83,14 @@ background: rgb(59, 59, 59);
   background: rgb(255, 255, 255);
 }
 
+.loginArea {
+color: #133660;
+
+}
+
+.userEntry {
+ 
+  border: 1px solid #999999;
+  border-radius: 0.625rem;
+
+}
