@@ -17,8 +17,8 @@ body {
 
 #conteudo {
   display: flex;
-  flex:column;
   align-items:center;
+  box-sizing: border-box;
 }
 .loginsize {
   height: 50vh; 
