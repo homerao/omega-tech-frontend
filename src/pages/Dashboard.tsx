@@ -1,10 +1,22 @@
 import React from 'react';
-
-// import { Container } from './styles';
+import logoOmega from '../assets/logo-omega.svg'
+import { Sidebar } from '../styles/DashboardStyle'
 
 const Dashboard: React.FC = () => {
   return (
-    <h1>Nada aqui ainda</h1>
+    <div className="bg-white">
+      <div id="">
+        <aside className="">
+          <Sidebar>
+            <img src={logoOmega} alt="" width="240" />
+          </Sidebar>
+        </aside>
+        <main id="conteudo">
+
+
+        </main>
+      </div>
+    </div>
   )
 }
 
