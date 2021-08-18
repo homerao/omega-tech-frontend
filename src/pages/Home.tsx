@@ -7,7 +7,8 @@ import youtube from "../assets/youtube.svg"
 import facebook from "../assets/facebook.svg"
 import twitter from "../assets/twitter.svg"
 import { Login } from "../components/Login/index"
-
+import { Cadastro } from '../components/Cadastro/index';
+import { Sucesso } from '../components/Sucesso';
 
 // import { Container } from './styles';
 
@@ -29,8 +30,8 @@ const Home: React.FC = () => {
           </aside>
           <main id="conteudo">
 
+            <Login></Login>
 
-            <Login />
 
 
           </main>
