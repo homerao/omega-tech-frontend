@@ -4,9 +4,11 @@ import OlhoFechado from '../../assets/closeeye.svg'
 import { useState } from "react";
 import { ToastContainer, toast, Slide } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { useHistory } from "react-router";
 
 
 export function Login() {
+  const history = useHistory();
   const UserNotFound = () => { toast("Usuário não cadastrado", { transition: Slide }); }
   const [passVisible, setPassVisible] = useState(true);
   return (
@@ -22,7 +24,7 @@ export function Login() {
       </Container>
       <ButtonContainer>
         <LoginButton onClick={UserNotFound}>Entrar</LoginButton>
-        <SignButton>Cadastrar</SignButton>
+        <SignButton onClick={() => history.push('/dashboard')}>Cadastrar</SignButton>
         <ToastContainer position="top-center" />
       </ButtonContainer>
     </div >
