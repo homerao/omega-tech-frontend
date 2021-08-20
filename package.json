@@ -46,13 +46,13 @@
     ]
   },
   "devDependencies": {
-    "@types/react": "^17.0.17",
+    "@types/react": "^17.0.19",
     "@types/react-dom": "^17.0.9",
     "@types/react-modal": "^3.12.1",
     "@types/react-router-dom": "^5.1.8",
     "@types/styled-components": "^5.1.12",
     "autoprefixer": "^9.8.6",
-    "postcss": "^8.3.6",
+    "postcss": "^7.0.36",
     "tailwindcss": "^2.2.7"
   }
 }
